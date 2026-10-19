@@ -1,0 +1,15 @@
+WIDTH 6 6
+START 0 0
+GOAL 5 5
+
+# Corridor walls for a deterministic right-hand-rule demo.
+WALL 0 0 EAST
+WALL 0 1 EAST
+WALL 0 2 EAST
+WALL 0 3 EAST
+WALL 0 4 EAST
+
+WALL 1 5 NORTH
+WALL 2 5 NORTH
+WALL 3 5 NORTH
+WALL 4 5 NORTH
