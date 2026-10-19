@@ -43,8 +43,8 @@ float Kp_dist = 2.0;
 float Kp_head = 1.5;
 
 // ================== WiFi and server ==================
-const char* ssid = "ESP32_MPU";
-const char* password = "12345678";
+const char* ssid = "YOUR_WIFI_SSID";
+const char* password = "YOUR_WIFI_PASSWORD";
 WebServer server(80);
 
 // ================== Encoder ISRs ==================

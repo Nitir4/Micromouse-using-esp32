@@ -6,8 +6,8 @@
 MPU6050 mpu;
 
 // --- WiFi credentials ---
-const char* ssid = "ESP32_MPU";
-const char* password = "12345678";
+const char* ssid = "YOUR_WIFI_SSID";
+const char* password = "YOUR_WIFI_PASSWORD";
 
 // --- Web server ---
 WebServer server(80);

@@ -8,8 +8,8 @@ float voltages[3];
 float distances[3];
 
 // WiFi credentials (Access Point mode)
-const char* ssid = "ESP32_IR_Server";
-const char* password = "12345678";  // at least 8 chars
+const char* ssid = "YOUR_WIFI_SSID";
+const char* password = "YOUR_WIFI_PASSWORD";  // at least 8 chars
 
 WebServer server(80);
 

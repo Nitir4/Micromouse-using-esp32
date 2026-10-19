@@ -2,8 +2,8 @@
 #include <WebServer.h>
 
 // --- WiFi credentials ---
-const char* ssid = "ESP32_IR_Sensor";   // SSID (WiFi Name)
-const char* password = "12345678";      // WiFi Password (>= 8 chars)
+const char* ssid = "YOUR_WIFI_SSID";   // SSID (WiFi Name)
+const char* password = "YOUR_WIFI_PASSWORD";      // WiFi Password (>= 8 chars)
 
 // --- Web Server ---
 WebServer server(80);
